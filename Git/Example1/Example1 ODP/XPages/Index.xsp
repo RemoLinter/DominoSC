@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:button value="Beschriftung" id="button1">
+		<xp:eventHandler event="onclick" submit="false">
+			<xp:this.script><![CDATA[alert('Test');]]></xp:this.script>
+		</xp:eventHandler></xp:button></xp:view>
